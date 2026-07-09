@@ -1,0 +1,10 @@
+1 declartion et initialisation
+nombre 1 = 29    nombre1, nombre_1 , nombrePremier , nombre_premier
+nombre 2 = 40
+somme = 0
+
+2 calcul 
+somme = nombre 1 + nombre 2 
+
+3 affichage du resultat
+on affiche sommme 
