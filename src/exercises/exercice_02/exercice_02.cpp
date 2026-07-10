@@ -12,6 +12,7 @@ void runExercice02() {
     delay(150);
     digitalWrite(LED_BUILTIN, LOW);
     delay(150);
+    
   }
   delay(200);
 }
