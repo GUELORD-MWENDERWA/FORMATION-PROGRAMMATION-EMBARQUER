@@ -18,7 +18,8 @@ int myFunction(int, int);
 #define max_led 5
 #define timeDelay 500
 
-#define button_01 8
+#define button_01 9
+int compteur_btn = 0;
 
 // put function definitions here:
 
@@ -97,11 +98,30 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   int etat_button = digitalRead(button_01);
-  Serial.print("l'etat du bouton  sur D");
+
+  /*
+    Serial.print("l'etat du bouton  sur D");
   Serial.print(button_01);
   Serial.print(" est ");
   Serial.println(etat_button);
   delay(100);
+
+  */
+
+  if(etat_button == LOW){
+    compteur_btn++;
+    Serial.print("le bouton a été appuyé ");
+    Serial.print(compteur_btn);
+    Serial.println(" fois");
+    delay(300);
+  }
+  
+  if(compteur_btn == 1){
+    digitalWrite(LED_BUILTIN, HIGH);
+  } else{
+    digitalWrite(LED_BUILTIN, LOW);
+  }
+
 
 }
 
