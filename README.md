@@ -4,6 +4,10 @@ A progressive set of exercises for learning embedded C/C++ on Arduino. Each exer
 
 The course is written for beginners: no prior microcontroller experience is assumed.
 
+## About this training
+
+This training was organized by [Guelord Mwenderwa](https://github.com/GUELORD-MWENDERWA), who designed the program and prepared all the exercises in this repository.
+
 ## Curriculum
 
 | # | Topic | What you practice |
