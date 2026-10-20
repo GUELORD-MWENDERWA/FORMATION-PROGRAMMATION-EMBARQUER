@@ -61,4 +61,4 @@ platformio.ini      Build environments: uno, nano
 
 ## License
 
-No license has been specified yet. Contact the author before reusing this material.
+MIT. See [LICENSE](LICENSE).
